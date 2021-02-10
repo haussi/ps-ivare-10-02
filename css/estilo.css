@@ -1,0 +1,79 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebouchet MS", Helvetica, sans-serif;
+	background: #7649F0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+a:hover{
+	background-color: #7649F0;
+	color: #fff;
+}
+
+#logo{
+	background-color: pink;
+	width: 130px;
+	height: 60px;
+}
+
+#area-cabecalho{
+	background-color: white;
+	display: flex;
+}
+#area-menu{
+	text-align: center;
+	margin: auto;
+	padding-right: 125px;
+}
+
+#sobreh1{
+	text-align: center;
+	margin-top: 50px;
+	color: white;
+}
+
+#lista{
+	margin-left: 50px;
+	margin-top: 60px;
+	font-size: 18px;
+	color: white;
+}
+
+#lista ol li{
+	padding: 20px; 
+}
+
+#textarea{
+	height: 100px;
+}
+
+.formulario {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px !important;
+	color: white;
+}
+
+#botao {
+	display: flex;
+	justify-content: center;
+	margin-top: 200px;
+}
+
+#botao button {
+	width: 120px;
+	height: 50px;
+	border-radius: 15px;
+}
